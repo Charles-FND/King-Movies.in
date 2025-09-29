@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trade+Winds&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+    
+}
+.brandName{
+    font-family: 'Trade Winds';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+    
+}
+.Logo{
+    width: 40px;
+    margin: 8px;
+    filter: brightness(0)  invert(1);
+
+}
+.brand-and-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar{
+    background-color: black;
+    padding-bottom: 30px;
+    
+    
+}
+.toggleButton{
+    color: white;
+    
+}
+.title-text{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    color: white;
+    
+}
+.title-card{
+    width: 100vw;
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 100%;
+    min-width: 400px;
+    min-height: 400px;
+    
+
+    
+}
+.newCard{
+    background-color: black;
+    gap: 10px;
+
+    
+}
